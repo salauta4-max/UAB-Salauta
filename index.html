@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UAB Šalauta</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .hero {
+      background: url('volvo-truck-hero.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0px 2px 10px rgba(0,0,0,0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold mb-4">UAB Šalauta</h1>
+      <p class="text-xl">Profesionalios pervežimo paslaugos Europoje</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-gray-900 text-white p-4 flex justify-between items-center">
+    <div class="text-2xl font-bold">Šalauta</div>
+    <div class="space-x-6">
+      <a href="#home" class="hover:text-yellow-400">Pagrindinis</a>
+      <a href="#services" class="hover:text-yellow-400">Paslaugos</a>
+      <a href="#about" class="hover:text-yellow-400">Apie mus</a>
+      <a href="#contact" class="hover:text-yellow-400">Kontaktai</a>
+    </div>
+  </nav>
+
+  <!-- Services -->
+  <section id="services" class="p-10 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-8">Mūsų paslaugos</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-2xl shadow-md text-center">
+        <i class="fa-solid fa-truck text-4xl text-yellow-500 mb-4"></i>
+        <h3 class="font-semibold text-xl mb-2">Tarptautiniai pervežimai</h3>
+        <p>Greiti ir patikimi pervežimai visoje Europoje.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md text-center">
+        <i class="fa-solid fa-warehouse text-4xl text-yellow-500 mb-4"></i>
+        <h3 class="font-semibold text-xl mb-2">Sandėliavimas</h3>
+        <p>Saugus jūsų krovinių laikymas mūsų sandėliuose.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md text-center">
+        <i class="fa-solid fa-box-open text-4xl text-yellow-500 mb-4"></i>
+        <h3 class="font-semibold text-xl mb-2">Logistika</h3>
+        <p>Efektyvūs sprendimai jūsų tiekimo grandinei.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="p-10">
+    <h2 class="text-3xl font-bold text-center mb-8">Apie UAB Šalauta</h2>
+    <p class="max-w-4xl mx-auto text-center">
+      Esame patikima pervežimų bendrovė, siūlanti tarptautinius krovinių pervežimus, logistiką ir sandėliavimą. 
+      Dirbame su moderniais Volvo FH sunkvežimiais ir užtikriname aukščiausią paslaugų kokybę.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="p-10 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-8">Kontaktai</h2>
+    <div class="text-center">
+      <p><i class="fa-solid fa-phone"></i> Tel.: <a href="tel:+37069820982" class="text-blue-600">+37069820982</a></p>
+      <p><i class="fa-solid fa-envelope"></i> El. paštas: <a href="mailto:salauta1@gmail.com" class="text-blue-600">salauta1@gmail.com</a></p>
+      <p><i class="fa-solid fa-location-dot"></i> Adresas: Vilniaus 3C, Šalčinikai LT-17102, Lietuva</p>
+      <div class="mt-6">
+        <iframe src="https://www.google.com/maps?q=Vilniaus%203C,%20Šalčinikai%20LT-17102,%20Lietuva&output=embed" width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="mt-4">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Vilniaus+3C,+Šalčinikai+LT-17102,+Lietuva" target="_blank" class="inline-block bg-yellow-500 text-white px-6 py-2 rounded-xl shadow hover:bg-yellow-600">
+          📍 Pridėti maršrutą
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center p-4">
+    <p>© 2025 UAB Šalauta. Visos teisės saugomos.</p>
+  </footer>
+
+</body>
+</html>
